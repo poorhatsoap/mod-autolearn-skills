@@ -205,8 +205,23 @@ const std::unordered_map<uint8, std::vector<uint32>> AutoLearnSkills::classWeapo
 
 const std::vector<uint32> AutoLearnSkills::combatSkillIds =
 {
-    43, 44, 45, 46, 54, 55, 95, 136, 160,
-    162, 172, 173, 176, 226, 229, 473
+    43,   // Swords
+    44,   // Axes
+    45,   // Bows
+    46,   // Guns
+    54,   // Maces
+    55,   // 2H Swords
+    95,   // Defense
+    136,  // Staves
+    160,  // 2H Maces
+    162,  // Unarmed
+    172,  // 2H Axes
+    173,  // Daggers
+    176,  // Thrown
+    226,  // Crossbows
+    229,  // Polearms
+    228,  // Wands
+    473   // Fist Weapons
 };
 
 void AddSC_AutoLearnSkills()
